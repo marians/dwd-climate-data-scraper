@@ -14,3 +14,65 @@ values.
 
 When the script is run, a JSON representation of all datasets is stored locally.
 However this can be modified easily to fit other purposes.
+
+The output format is as follows:
+
+station_id
+	
+	Unique identifier of the weather station. The DWD provides a station list,
+	again under a non-permanent URL. You can find it near the original source
+	described above
+	
+date
+	
+	Date string of the data recording in format YYYYMMDD
+	
+quality_level
+	
+	An Integer between 0 and 16 describing the quality level of the record. A
+	more detailed explanation can be found on the DWD website near the original
+	data.
+	
+temperature_5cm_min
+	
+	Minimum temperature 0,05 meters above ground level in degrees centigrade
+
+temperature_200cm_min
+	
+	Minimum temperature 2 meters above ground level in degrees centigrade
+
+temperature_200cm_average
+
+	Average temperature 2 meters above ground level in degrees centigrade
+
+temperature_200cm_max
+
+	Maximum temperature 2 meters above ground level in degrees centigrade
+	
+relative_humidity
+
+	Average relative humidity in percent
+
+wind_force_average          = FM  = Mittel der Windstaerke (Bft)
+
+	Average wind force in beaufort (Integer)
+
+wind_speed_max
+
+	Maximum wind speed in meters per second
+
+sunshine_duration
+
+	Duration of sunshine in hours
+
+cloud_amount_average
+
+	Amount of clouds in eights
+
+precipitation_height
+
+	Amount of rain/percipitation in mm
+
+barometric_pressure_average
+
+	Average barometric pressure in hpa
