@@ -53,7 +53,7 @@ relative_humidity
 
 	Average relative humidity in percent
 
-wind_force_average          = FM  = Mittel der Windstaerke (Bft)
+wind_force_average
 
 	Average wind force in beaufort (Integer)
 
