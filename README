@@ -1,0 +1,16 @@
+The purpose of this package is to scrape (i.e. download) climate/weather data
+that is publicly available at
+
+  http://www.dwd.de/ > "Klima + Umwelt" > "Klimadaten" > "Daten online - frei" > 
+  "Klimadaten Deutschland" > "Zeitreihen an Stationen" > "Tageswerte"
+  
+Unfortunately the original data is not available under a persistent URL.
+
+The data is collected daily from a number of weather stations throughout Germany.
+
+The beginning of the data collection of some of the stations dates back to more
+than 100 years ago, so the time series allows for a long-term comparison of
+values.
+
+When the script is run, a JSON representation of all datasets is stored locally.
+However this can be modified easily to fit other purposes.
