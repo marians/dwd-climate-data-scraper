@@ -29,7 +29,7 @@ def main():
 
 	
 	#print '========== 3. Seite ==============================='
-	br.follow_link(text_regex=r".*Zeitreihen\s+an\s+Stationen.*")
+	br.follow_link(text_regex=r".*für\s+Messstationen.*")
 	assert br.viewing_html()
 	
 	#print '========== 4. Seite ==============================='
